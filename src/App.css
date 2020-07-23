@@ -1,0 +1,92 @@
+.App {
+    font-family: 'Avenir Next';
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(75, 96, 104);
+    color: white;
+}
+
+.pageTitle{
+    color: rgb(75, 96, 104);
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.supermodel-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    padding-block-end: 0;
+    padding-block-start: 0;
+}
+
+.supermodel-img-block {
+    height: 30vh;
+}
+
+.supermodel-display-img-block {
+    height: 70vh;
+    align-self: center;
+}
+
+.supermodel-link-block {
+    height: 30vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+.launch-runway {
+    font-size: 7vh;
+    font-family: 'Snell Roundhand';
+    text-decoration: none;
+    color: rgb(92, 124, 134);
+}
+
+.runway {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    padding-block-end: 0;
+    padding-block-start: 0;
+}
+
+.runway-supermodel-container{
+    width: 33vh;
+    align-content: center;
+}
+
+.runway-supermodel {
+    animation: rotation 5s infinite linear;
+    width: 30vh;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
